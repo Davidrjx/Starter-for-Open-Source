@@ -1,1 +1,22 @@
+For lastest GitHub Desktop,
+(1)How to clone a reposity from GitHub to GitHub Desktop?
+    Install GitHub Desktop Client;
+    Sign in to GitHub Desktop and navigate to main page the reposity;
+    click "Clone or download" on the page,then click "Open in Desktop" button.
+    finally,either click "Open in Desktop" button , then GitHub Desktop will be opened 
+                   automatically and start to clone specific-branch source code of this reposity. 
+	    or copy URL with HTTPS/SSH Clone , at GitHub Desktop click "File/Clone reposity", 
+               then type URL and select Local path , finally click "Clone".     
+(2)By GitHub Desktop locallly, how to sync non-base branches with base one?
+    First,update your local upstream branch, generally as master or default branch. select it,
+    then click "sync" or "fetch origin" option;
+    Secondly, merge local upstream branch into your project-dev branch. select project-dev branch in Current branch,
+    click "Branch" in toolbar and select "Update from default branch" item
+
+Notes:
+(1)GitHub will fetch origin from "Current branch" periodically.
+(2)commits under "Current branch" will be pushed to remote branch with same name at GitHub, and 
+   need you New pull request to base branch.
+
+
 
