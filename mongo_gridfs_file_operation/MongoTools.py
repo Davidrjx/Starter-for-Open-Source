@@ -1,8 +1,8 @@
 #coding: utf-8
 def getextradatabyid(conndb,filefieldobj,gridfs_id = None):
-	'''
-	via pymongo interface
-	'''
+    '''
+    via pymongo interface
+    '''
     tmpdict = {}
     if gridfs_id is not None:
         collname = filefieldobj.collection_name + '.files'
