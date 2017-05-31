@@ -1,11 +1,12 @@
 #coding: utf-8
 '''
-Created on 2015年8月26日
-@author: jianxin.ren
+Created on Aug,26 2015
+@author: jianxin,ren
 '''
 import os
-from common.MongoTools import getextradatabyid
 from time import sleep
+from .MongoTools import getextradatabyid
+
 
 class FileOperationOfMongo(object):
     '''
@@ -91,7 +92,6 @@ class FileOperationOfMongo(object):
                     isexcept = True
 
             else:#general file,by default
-                print storestyle
                 try:
                     gridfsproxy.put(fd)
                 except:
