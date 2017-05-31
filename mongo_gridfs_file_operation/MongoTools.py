@@ -1,7 +1,7 @@
 #coding: utf-8
 def getextradatabyid(conndb,filefieldobj,gridfs_id = None):
     '''
-    via pymongo interface
+    via pymongo interface with mongoengine
     '''
     tmpdict = {}
     if gridfs_id is not None:
